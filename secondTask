@@ -1,5 +1,5 @@
-INSERT INTO PERSONS1 (name, surname, age, phone_number, city_of_living) 
+INSERT INTO PERSONS (name, surname, age, phone_number, city_of_living) 
 VALUES ('petya', 'ivanov', 12, '1234567', 'MOSCOW'),
 ('ivan', 'pertov', 22, '11234567', 'SPB');
 
-SELECT name, surname FROM PERSONS1 WHERE city_of_living = 'MOSCOW';
+SELECT name, surname FROM PERSONS WHERE city_of_living = 'MOSCOW';
